@@ -6,10 +6,6 @@ const port = 3000;
 const Product=require("./Models/Product");
 const Signup=require("./Models/Signup");
 const Signin=require("./Models/Signin");
-
-app.get("/sayhello", (req, res) => {
-  res.send("hello world!");
-});
 app.post("/addproducts", async (req,res)=>{
   try
   {
